@@ -8,7 +8,7 @@
 </div>
 <br><br><br>
 <h2 align='center'>
-    A Mobile Application for my GF to notify her for cosuming her medicine.
+    A Mobile Application for my Love to notify her for cosuming her medicine.
 </h2>
 
 <br><br><br>
