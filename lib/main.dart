@@ -139,7 +139,7 @@ class _DrugConsumeNotifierState extends State<DrugConsumeNotifier> {
     );
   }
 
-  void getCurrentTimeAndCheckTime() {
+  dynamic getCurrentTimeAndCheckTime() {
     setState(() {
       _timeString =
           '${DateTime.now().hour}:${DateTime.now().minute}:${DateTime.now().second}';
@@ -195,7 +195,7 @@ class Notification {
     AndroidNotificationDetails androidPlatformChannelSpecifics =
         const AndroidNotificationDetails(
       'andrnotif',
-      'channel_name',
+      'zula',
       playSound: true,
       importance: Importance.max,
       priority: Priority.high,
