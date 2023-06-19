@@ -139,7 +139,7 @@ class _DrugConsumeNotifierState extends State<DrugConsumeNotifier> {
     );
   }
 
-  dynamic getCurrentTimeAndCheckTime() {
+  void getCurrentTimeAndCheckTime() {
     setState(() {
       _timeString =
           '${DateTime.now().hour}:${DateTime.now().minute}:${DateTime.now().second}';
@@ -161,7 +161,7 @@ class _DrugConsumeNotifierState extends State<DrugConsumeNotifier> {
           body: 'پرانول با اس سیتالوپرام',
           fln: flutterLocalNotificationsPlugin,
         );
-      } else if (_timeString == '0:59:59') {
+      } else if (_timeString == '22:59:59') {
         _thirdStatus = true;
         _firstStatus = false;
         _secondStatus = false;
